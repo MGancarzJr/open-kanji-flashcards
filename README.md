@@ -9,6 +9,7 @@ Principles:
 * Keep the cards simple.
 * Do not visually overload the learner.
 * Do not make compiling the documents in LaTeX computationally expensive.
+* Allow the easy creation of and extension of flash cards.
 * Do not plagiarize collected Kanji works.
 
 Inspiration:
