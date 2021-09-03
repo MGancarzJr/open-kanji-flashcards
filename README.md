@@ -10,3 +10,6 @@ Principles:
 * Do not visually overload the learner.
 * Do not make compiling the documents in LaTeX computationally expensive.
 * Do not plagiarize collected Kanji works.
+
+Inspiration:
+This project draws inspiration from the [一右二烏 project](https://github.com/makemeunsee/ichimiginikarasu). 
