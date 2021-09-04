@@ -14,4 +14,4 @@ Principles:
 
 Acknowledgements:
 * This project draws inspiration from the [一右二烏 project](https://github.com/makemeunsee/ichimiginikarasu).
-* Black LaTeX magic shared by [Jämes](https://tex.stackexchange.com/users/108649/jämes) in [this post](https://tex.stackexchange.com/a/509766).
+* LaTeX black magic shared by [Jämes](https://tex.stackexchange.com/users/108649/jämes) in [this post](https://tex.stackexchange.com/a/509766).
