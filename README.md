@@ -12,5 +12,6 @@ Principles:
 * Allow the easy creation of and extension of flash cards.
 * Do not plagiarize collected Kanji works.
 
-Inspiration:
-This project draws inspiration from the [一右二烏 project](https://github.com/makemeunsee/ichimiginikarasu). 
+Acknowledgements:
+* This project draws inspiration from the [一右二烏 project](https://github.com/makemeunsee/ichimiginikarasu).
+* Black LaTeX magic shared by [Jämes](https://tex.stackexchange.com/users/108649/jämes) [in this post](https://tex.stackexchange.com/a/509766).
