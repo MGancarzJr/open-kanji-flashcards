@@ -1,0 +1,48 @@
+%N5 cards 001 to 008
+
+\documentclass[2col4row,grid]{flashcards}
+
+\cardfrontstyle[\Large]{headings}
+\cardbackstyle{empty}
+
+\usepackage{xeCJK}
+\setCJKsansfont{MS Gothic} % for \sffamily
+
+\usepackage{multirow}
+
+\newcounter{cardnum}
+\setcounter{cardnum}{1}
+
+% Provide a way to declare and renew a command in one command
+\newcommand{\neworrenewcommand}[1]{\providecommand{#1}{}\renewcommand{#1}}
+
+%macro definition for card layout
+\newcommand{\shortcard}[9]{
+	\neworrenewcommand{\sshortcard}[4]{
+		\begin{flashcard}[\arabic{cardnum}]{\begin{tabular}{ c l }
+		\multirow{5}{6em}{\fontsize{90}{108}#1} & #4 \\ 
+		& #6 \\ 
+		& #8 \\
+		& ##1 \\
+		& ##3
+		\end{tabular}}
+
+		{\large #2 \\
+		#3}
+
+		\smallskip
+
+		\begin{description}
+			\item #4 • #5
+			\item #6 • #7
+			\item #8 • #9
+			\item ##1 • ##2
+			\item ##3 • ##4
+		\end{description}
+
+		\end{flashcard}
+		\stepcounter{cardnum}
+	}
+	\sshortcard
+}
+%end macro
