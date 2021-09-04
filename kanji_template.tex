@@ -1,4 +1,6 @@
-%N5 cards 001 to 008
+% kanji_template.tex
+% This is the template file for all single-kanji flashcards and needs to be included via \input{kanji_template} at the preamble.
+% Editing this file will alter the look and function of all generated cards.
 
 \documentclass[2col4row,grid]{flashcards}
 
@@ -11,12 +13,21 @@
 \usepackage{multirow}
 
 \newcounter{cardnum}
-\setcounter{cardnum}{1}
 
-% Provide a way to declare and renew a command in one command
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Macro definition for card layout. This takes 13 parameters in the format:
+%
+% \shortcard{kanji}
+%			{definition}
+%			{reading}
+%			{example 1}{definition and reading 1}
+%			...
+%			{example 5}{definition and reading 5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Provide a way to declare and renew a command in one command. Black magic provided by Jämes.
 \newcommand{\neworrenewcommand}[1]{\providecommand{#1}{}\renewcommand{#1}}
 
-%macro definition for card layout
 \newcommand{\shortcard}[9]{
 	\neworrenewcommand{\sshortcard}[4]{
 		\begin{flashcard}[\arabic{cardnum}]{\begin{tabular}{ c l }
@@ -45,4 +56,4 @@
 	}
 	\sshortcard
 }
-%end macro
+% End macro
