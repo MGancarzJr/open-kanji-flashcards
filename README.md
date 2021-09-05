@@ -11,6 +11,7 @@ Principles:
 * Do not make compiling the documents in LaTeX computationally expensive.
 * Allow the easy creation of and extension of flash cards.
 * Do not plagiarize collected Kanji works.
+* Use compound words in popular use.
 
 Acknowledgements:
 * This project draws inspiration from the [一右二烏 project](https://github.com/makemeunsee/ichimiginikarasu).
