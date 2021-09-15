@@ -16,7 +16,7 @@ Principles:
 Acknowledgements:
 * This project draws inspiration from the [一右二烏 project](https://github.com/makemeunsee/ichimiginikarasu).
 * LaTeX black magic shared by [Jämes](https://tex.stackexchange.com/users/108649/jämes) in [this post](https://tex.stackexchange.com/a/509766).
-* The good peole at [Jisho](https://jisho.org).
+* The good people at [Jisho](https://jisho.org).
 * [Google Translate](https://translate.google.com).
 * Understanding through pictures 1000 KANJI. [Amazon.com](https://www.amazon.com/Understanding-through-pictures1000KANJI-イラストで覚える漢字1000/dp/4816362053/) [OMG JAPAN](https://omgjapan.com/products/understanding-through-pictures-1000-kanji)
 
