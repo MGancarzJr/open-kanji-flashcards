@@ -35,3 +35,15 @@ Kanji are organized in groups of 8 per file. The files are organized here from N
 | 外 | 馬 | 台 | 会 | 画 | 晴 | 新 | 少 | 丸 | 鹿 |
 | 角 | 京 | 広 | 食 | 回 | 原 | 親 | 歩 | 毛 | 狐 |
 | 歌 | 交 | 店 | 今 | 止 | 書 | 数 | 毎 | 考 | 羊 |
+
+#N3
+| 001 - 008 |
+| :---: |
+| 使 |
+| 他 |
+| 代 |
+| 化 |
+| 仕 |
+| 住 |
+| 位 |
+| 仲 |
